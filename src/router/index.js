@@ -40,7 +40,3 @@ const router = new VueRouter({
 });
 
 export default router;
-
-/* 6) Set props to true so that the can accept any
-    route parameter in a desired component. Next step in the 
-    JobDetails component. */
