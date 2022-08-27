@@ -4,7 +4,9 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
-    <router-view/>
+    <!-- In this router-view component is where the routes
+    are dinamically injected, when we go to different routes -->
+    <router-view />
   </div>
 </template>
 
