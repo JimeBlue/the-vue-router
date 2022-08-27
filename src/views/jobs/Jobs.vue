@@ -1,7 +1,4 @@
 <template>
-  <!-- EXPLANATION: All my pages, i.e all my routes, go in the views folder. If inside a 
-  page I have subroute, I can create a sub-folder in views and all the related files
-  there. This is what I did with the Jobs and JobDetails components.-->
   <div>
     <h1>Jobs</h1>
     <div v-for="job in jobs" :key="job.id">
